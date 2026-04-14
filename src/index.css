@@ -5,11 +5,11 @@
 @layer base {
   :root {
     /* Color Palette */
-    --cream: #f5f1ed;
-    --charcoal: #1a1815;
-    --taupe: #a89f99;
-    --gold: #c9a961;
-    --warm-white: #faf8f5;
+    --cream: #f0f4ee;
+    --charcoal: #1c2318;
+    --taupe: #7a9070;
+    --gold: #5a9e4f;
+    --warm-white: #f5f8f3;
 
     /* Design Tokens */
     --background: 30 20% 95%;

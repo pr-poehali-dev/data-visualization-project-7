@@ -4,19 +4,19 @@ interface HeroProps {
 
 const translations = {
   en: {
-    title: "Alexander Voss",
-    subtitle: "Classical Pianist",
-    description: "A virtuoso performer captivating audiences at the world's most prestigious concert halls",
+    title: "Wild Moon Tours",
+    subtitle: "Night Hikes & Bear Adventures",
+    description: "Walk under the moonlight, compete in forest challenges and make friends with a bear — if you dare",
   },
   de: {
-    title: "Alexander Voss",
-    subtitle: "Klassischer Pianist",
-    description: "Ein virtuoser Performer, der Publikum in den renommiertesten Konzertsalen der Welt fasziniert",
+    title: "Wild Moon Tours",
+    subtitle: "Nachtwanderungen & Bärenabenteuer",
+    description: "Wandere im Mondlicht, nimm an Waldwettbewerben teil und begegne einem Bären — wenn du dich traust",
   },
   ru: {
-    title: "Александр Фосс",
-    subtitle: "Классический пианист",
-    description: "Виртуозный исполнитель, очаровывающий публику в престижнейших концертных залах мира",
+    title: "Wild Moon Tours",
+    subtitle: "Ночные походы и приключения с медведем",
+    description: "Гуляй под луной, участвуй в конкурсах и подружись с медведем — если осмелишься",
   },
 }
 
@@ -28,11 +28,11 @@ export default function Hero({ language }: HeroProps) {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSCF3797.JPG-D5CA7ICwqzRlSb4xwdgFIdtxI4Epof.jpeg"
-          alt="Pianist performing"
+          src="/images/dscf3797.jpeg"
+          alt="Night forest hike"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-charcoal/35"></div>
+        <div className="absolute inset-0 bg-charcoal/50"></div>
       </div>
 
       {/* Content */}
